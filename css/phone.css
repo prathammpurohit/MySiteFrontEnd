@@ -24,13 +24,13 @@ a{
     font-size: 20vw;
 }
 #HeadingWeather{
-    font-size: 6vw;
+    font-size: 8vw;
 }
 #HeadingGetInTouch{
-    font-size: 6vw;
+    font-size: 7vw;
 }
 #DownloadCVHeading{
-    font-size: 6vw;
+    font-size: 7vw;
 }
 .project{
     width: 97vw;
@@ -99,10 +99,10 @@ a{
 }
 
 #ImageProjectsSection2{
-    font-size: 20vw;
+    font-size: 20vh;
 }
 .imageProjectsSection{
-    height: 22vw;
+    height: 22vh;
 }
 #ImageKnowSection1{
     
@@ -138,7 +138,13 @@ a{
 }
 #ParaKnowSection{
     text-align: center;
-    font-size: 3vw;
+    font-size: 5vw;
+}
+#ParaHireSection{
+    text-align: center;
+}
+#ParaEarthSection{
+    text-align: center;
 }
 #BoxKnowSection2{
     flex-direction: column;
@@ -149,7 +155,7 @@ a{
     font-size: 5vw;
 }
 .paraExp{
-    font-size: 3vw;
+    font-size: 5vw;
 }
 #BoxHireSection1{
     flex-direction: column;
@@ -166,23 +172,27 @@ footer{
     width: 100vw;
 }
 .listTool{
-    font-size: 3vw;
+    font-size: 5vw;
+    list-style: none;
+}
+#BoxToolList {
+    width: 100%;
 }
 .paraInnerBoxProject{
-    font-size: 3vw;
+    font-size: 5vw;
 }
 .inp{
-    font-size: 3vw;
+    font-size: 5vw;
 }
 .listProject{
-    font-size: 3vw;
+    font-size: 5vw;
 }
 #ParaHireSection{
-    font-size: 3vw;
+    font-size: 5vw;
 }
 #ParaEarthSection{
-    font-size: 3vw;
+    font-size: 5vw;
 }
 #FooterStrong{
-    font-size: 4vw;
+    font-size: 5vw;
 }
