@@ -6,7 +6,7 @@
 }
 
 .heading{
-    position: relative;
+    /* position: relative; */
     /* padding: 15px; */
     font-weight: light;
 }
@@ -33,34 +33,51 @@
 }
 
 body{
-
+    position: relative;
 }
                 /* HEADER */
 
 header{
     position: fixed;
-    top: 0vh;
+    top: 0;
     right: 0;
+    
 }
 
 #NavBar{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    display: none;
+    padding: 15px;
+    background-color:white;
 }
 
-#NavList{
-    
+.paraNavBar{
+    padding: 10px; 
+}
+ 
+.uncleImg{
+    height: 14vh;
 }
 
-.listItems{
-    padding: 10px 0px 10px 5px;
-}
-
-#UncleBot{
-    height: 15vh;
+.UncleBot{
+    text-align: end;
     z-index: 1000;
     right: 0;
+    display: block;
+}
+.uncleImg:hover{
+    cursor: pointer;
+}
+.headingNavBar{
+    padding: 10px;
+}
+.listParaNav{
+    display: none;
+    padding: 10px;
 }
                 /* SECTION 1 */
                 
@@ -74,7 +91,11 @@ header{
     align-items: center;
     justify-content: center;
 }
-
+.unspan{
+    padding: 0px;
+    font-size: 1vw;
+    text-align: end;
+}
 .imageNameSection{
 
 }
@@ -84,9 +105,10 @@ header{
 }
 
 #HeadingNameSection{
-    position: relative;
+    background: url("../images/bg-10.svg") no-repeat bottom;
+    background-size: 60%;
 }
-
+/* 
 #HeadingNameSection::after{
     content: "";
     background: url("../images/bg-10.svg") no-repeat center;
@@ -99,7 +121,7 @@ header{
     width: 100%;
     opacity: 0.9;
     border-radius: 30px;
-}
+} */
 
 #ImageNameSection1{
     height: 70vh;
@@ -107,7 +129,7 @@ header{
 
 #BoxNameSection2{
     justify-content:space-evenly;
-    position: relative;
+    /* position: relative; */
 }
 
 #HeadingWeather{
@@ -120,16 +142,16 @@ header{
     z-index: -1;
 }
 
-#ImageNameSection2::after{
+/* #ImageNameSection2::after{
     content: "";
     background: url("../images/undraw_handcrafts_tree.svg") no-repeat center;
     background-size: contain;
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 20%;
     right: 0;
     z-index: -1;
-}
+} */
                 /* SECTION 2*/
 
 #AboutSection{
@@ -153,7 +175,7 @@ header{
 }
 
 #HeadingAboutSection{
-    position: relative;
+    /* position: relative; */
     font-weight: light;
 }
 
@@ -353,7 +375,7 @@ span{
 }
 
 #HeadingKnowSection{
-    position: relative;
+    /* position: relative; */
     font-weight: light;
 }
 
@@ -410,7 +432,7 @@ span{
 }
 
 #HeadingHireSection{
-    position: relative;
+    /* position: relative; */
     font-weight: light;
 }
 
@@ -442,7 +464,7 @@ span{
 }
 
 #HeadingEarthSection{
-    position: relative;
+    /* position: relative; */
     font-weight: light;
 }
 
