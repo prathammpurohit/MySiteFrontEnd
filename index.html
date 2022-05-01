@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" media="screen and (max-width: 970px)" href="css/phone.css">
+    <link rel="stylesheet" href="css/js.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Pratham Purohit</title>
 </head>
@@ -16,14 +17,54 @@
     <div id="PreLoader"></div>
 
     <header>
-      <!--  <nav id="NavBar">
-             <ul id="NavList">
-                <li class="listItems">About</li>
-                <li class="listItems">Projects</li>
-                <li class="listItems">Hire me</li>
-            </ul> 
+        <nav id="NavBar">
+            <h3 class="headingNavBar">
+                Hola! I am Uncle Bot
+            </h3>
+            <p class="paraNavBar" id="A1" onclick="toggleQ1()">
+                About Pratham.
+                <i class="fa fa-thumbs-up tog" onclick="onQ1()"></i>
+                <i class="fa fa-thumbs-down tog" onclick="offQ1()"></i>
+                <li class="listParaNav" id="Q1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint omnis corporis, 
+                    eaque error labore quia nostrum expedita voluptas? Ducimus, nam.
+                </li>
+            </p>
+            <p class="paraNavBar">
+                Languages he knows.
+                <i class="fa fa-thumbs-up tog" onclick="onQ2()"></i>
+                <i class="fa fa-thumbs-down tog" onclick="offQ2()"></i>
+                <li class="listParaNav" id="Q2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Incidunt vero nisi earum maiores quod voluptatem quae eius, ut sint repellat.
+                </li>
+            </p>
+            <p class="paraNavBar">
+                FrameWorks/Tools he uses.
+                <i class="fa fa-thumbs-up tog" onclick="onQ3()"></i>
+                <i class="fa fa-thumbs-down tog" onclick="offQ3()"></i>
+                <li class="listParaNav" id="Q3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Laborum laboriosam expedita quam incidunt, reprehenderit illum! Maiores facere optio sapiente accusantium?
+                </li>
+            </p>
+            <p class="paraNavBar">
+                Shall I play some music for you?
+                <audio id="audioPlayer" loop>
+                    <source src="audios/song1.ogg" type="audio/ogg"> 
+                    <source src="audios/song1.mpeg" type="audio/mpeg"> 
+                </audio>
+                <i class="btnMusic fa fa-thumbs-up tog" onclick="playQ4()"></i>
+                <i class="btnMusic fa fa-thumbs-down tog" onclick="pauseQ4()"></i>
+            </p>
+            <p class="paraNavBar">
+                Wanna hire Pratham?
+            </p>
         </nav>
-        <img src="images/character_illustration_6.svg" alt="" id="UncleBot">-->
+        <p class="UncleBot">
+         <img src="images/character_illustration_6.svg" class="uncleImg" onclick="toggleNav()" alt="">
+         <p class="unspan">Double Tap</p> 
+        </p>
     </header>
 
     <main>
@@ -286,12 +327,6 @@
     </main>
 
 </body>
-
-<script>
-    let loader = document.getElementById('PreLoader');
-    window.addEventListener("load", function () {
-        loader.style.display = "none";
-    });
-</script>
+<script src="javaScript/index.js"></script>
 
 </html>
