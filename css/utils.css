@@ -1,0 +1,463 @@
+*{
+    overflow: inherit;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.heading{
+    font-weight: light;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    height: 40vh;
+    pointer-events: none;
+}
+
+
+#PreLoader{
+    background: url("../images/jesseLoader.gif") no-repeat center white;
+    position: fixed;
+    min-height: 100vh;
+    width: 100vw;
+    z-index: 50;
+}
+
+body{
+    position: relative;
+}
+                /* HEADER */
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+}
+
+#NavBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    display: none;
+    padding: 15px;
+    background-color:white;
+}
+
+.paraNavBar{
+    padding: 10px; 
+}
+ 
+.uncleImg{
+    height: 14vh;
+}
+
+.UncleBot{
+    text-align: end;
+    z-index: 1000;
+    right: 0;
+    display: block;
+}
+.uncleImg:hover{
+    cursor: pointer;
+}
+.headingNavBar{
+    padding: 10px;
+}
+.listParaNav{
+    display: none;
+    padding: 10px;
+}
+                /* SECTION 1 */
+                
+#NameSection{
+}
+
+.boxNameSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unspan{
+    padding: 0px;
+    font-size: 1vw;
+    text-align: end;
+}
+.imageNameSection{
+
+}
+
+#BoxNameSection1{
+    
+}
+
+#HeadingNameSection{
+    background: url("../images/bg-10.svg") no-repeat bottom;
+    background-size: 60%;
+}
+
+#ImageNameSection1{
+    height: 70vh;
+}
+
+#BoxNameSection2{
+    justify-content:space-evenly;
+}
+
+#HeadingWeather{
+
+}
+
+#ImageNameSection2{
+    min-height: 20vh;
+    width: 30vw;
+    z-index: -1;
+}
+
+                /* SECTION 2*/
+
+#AboutSection{
+
+}
+
+.boxAboutSection{
+
+}
+
+#BoxAboutSection1{
+
+}
+
+.imageAboutSection{
+
+}
+
+#ImageAboutSection1{
+    height: 50vh;
+}
+
+#HeadingAboutSection{
+    font-weight: light;
+}
+
+#BoxAboutSection2{
+    width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#HeadingGetInTouch{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form{
+    display: inline;
+}
+
+#tele{
+    width: 20vw;
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px;
+}
+
+#ImageAboutSection2{
+    height: 40vh;
+}
+
+            /* SECTION 3 */
+#ToolSection{
+
+}
+
+.boxToolSection{
+
+}
+
+#BoxToolSection1{
+
+}
+
+.imageToolSection{
+
+}
+
+#ImageToolSection1{
+    height: 50vh;
+}
+
+#HeadingToolSection{
+    
+}
+
+#BoxToolSection2{
+    width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#DownloadCVHeading{
+    text-align: center;
+    padding: 15px;
+    padding-left: unset;
+    padding-right: unset;
+}
+
+span{
+    padding: 10px;
+}
+
+.span2{
+    text-align: center;
+    padding-left: 20px;
+    border: 2px solid #051d40;
+    border-left: unset;
+    background-color: rgb(178, 233, 246);
+}
+
+#ImageToolSection2{
+    
+}
+
+#BoxToolList{
+
+}
+
+#ToolList{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.toolList{
+    
+}
+
+                /* SECTION 4 */
+#ProjectsSection{
+
+}
+
+.boxProjectsSection{
+
+}
+
+#BoxProjectsSection1{
+
+}
+
+.imageProjectsSection{
+
+}
+
+#ImageProjectsSection1{
+    height: 60vh;
+}
+
+#HeadingProjectsSection{
+    
+}
+
+#BoxProjectsSection2{
+    width: 65vw;
+    margin: auto;
+    justify-content: space-around;
+    align-items: unset;
+    padding-left: 10vw;
+}
+
+#ImageProjectsSection2{
+    font-size: 18vh;
+    pointer-events: unset;
+}
+
+#ProjectList{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projectList{
+
+}
+
+.listProject{
+
+}
+
+#ElaborateProjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project{
+    display: flex;   
+    width: 70vw;
+}
+
+#Project1{
+    flex-direction: row-reverse;
+}
+#Project3{
+    flex-direction: row-reverse;
+}
+
+#HeadingInnerBoxProject1{
+    text-align: end;
+}
+#HeadingInnerBoxProject3{
+    text-align: end;
+}
+
+
+                /* SECTION 5 */
+#KnowSection{
+    margin-bottom: 10vh;
+}
+
+.boxKnowSection{
+
+}
+
+#BoxKnowSection1{
+    width: 70vw;
+    margin: auto;
+}
+
+.imageKnowSection{
+
+}
+
+#ImageKnowSection1{
+    height: 50vh;
+}
+
+#HeadingKnowSection{
+    font-weight: light;
+}
+
+#ParaKnowSection{
+
+}
+
+#BoxKnowSection2{
+    display: flex;
+    width: 75vw;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#HeadingExp{
+
+}
+
+#BoxExp{
+
+}
+
+.expHold{
+    padding: 20px;
+}
+
+.expName{
+
+}
+
+
+                /* SECTION 6 */
+#HireSection{
+    
+}
+
+.boxHireSection{
+
+}
+
+#BoxHireSection1{
+    width: 70vw;
+    margin: auto;
+}
+
+.imageHireSection{
+
+}
+
+#ImageHireSection1{
+    height: 50vh;
+}
+
+#HeadingHireSection{
+    font-weight: light;
+}
+
+#ParaHireSection{
+
+}
+
+
+                /* SECTION 7 */
+#EarthSection{
+
+}
+
+.boxEarthSection{
+
+}
+
+#BoxEarthSection1{
+    width: 70vw;
+    margin: auto;
+}
+
+.imageEarthSection{
+
+}
+
+#ImageEarthSection1{
+    height: 50vh;
+}
+
+#HeadingEarthSection{
+    font-weight: light;
+}
+
+#ParaEarthSection{
+
+}
+
+
+                /* Footer */
+footer{
+    min-height: 20vh;
+    background-color: rgba(186, 218, 223,0.3);
+}
+
+#FooterBox{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLogo{
+    color: #3a629d;
+}
+.footerLogo:hover{
+    color: #0b68f3;
+}
