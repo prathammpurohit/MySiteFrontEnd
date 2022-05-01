@@ -17,29 +17,30 @@
     font-size: 3.5rem;
     font-family: var(--heading-font);
 }
-
-#UncleBot:hover{
-    cursor: pointer;
+.listParaNav{
+    font-family: var(--elaborate-font);
+    color: var(--primary-pink);
+    font-weight: lighter;
 }
-
-
-#NavList{
+.headingNavBar{
+    font-family: var(--cv-font);
+    color: var(--primary-blue);
     font-size: 2rem;
-    font-family: var(--name-font);
-    color: rgb(7, 171, 56);
-    background-color: var(--cv-color);
-    border-top-right-radius: 5px;
 }
-
-.listItems:hover{
-    font-weight: bold;
-    cursor: pointer;
+.paraNavBar{
+    font-family: var(--sub-heading-font);
+    color: rgb(131, 131, 16);
+    font-size: 1.2rem;
 }
-
 #NameSection{
     color: var(--primary-blue);
 }
-
+.tog{
+    font-size: 2rem;
+}
+.tog:hover{
+    cursor: pointer;
+}
 #HeadingNameSection{
     font-size: 12vw;   
     font-family: var(--name-font);
