@@ -8,10 +8,16 @@ section{
 
 .box{
     width: 100vw;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
     padding: 0px;
     align-items: center;
     justify-content: space-evenly;
+}
+.uncleImg{
+    height: 9vh;
+}
+.unspan{
+    font-size: 2vw;
 }
 a{
     margin: 10px;
