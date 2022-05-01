@@ -15,12 +15,14 @@
 
 <body>
     <div id="PreLoader"></div>
-
-    <header>
+header>
         <nav id="NavBar">
+            <div id="NavFlex">
             <h3 class="headingNavBar">
                 Hola! I am Uncle Bot
             </h3>
+            <i class="tog fa fa-times" onclick="toggleNav()" style="font-size: 2rem;"></i>
+            </div>
             <p class="paraNavBar" id="A1" onclick="toggleQ1()">
                 About Pratham.
                 <i class="fa fa-thumbs-up tog" onclick="onQ1()"></i>
@@ -62,8 +64,8 @@
             </p>
         </nav>
         <p class="UncleBot">
-         <img src="images/character_illustration_6.svg" class="uncleImg" onclick="toggleNav()" alt="">
-         <p class="unspan">Double Tap</p> 
+         <img src="images/character_illustration_6.svg" class="uncleImg" onclick="toggleNav()" ondblclick="hide()" alt="">
+         <p class="unspan">Double Tap <br>To Activate</p> 
         </p>
     </header>
 
