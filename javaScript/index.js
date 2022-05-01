@@ -8,6 +8,8 @@ function hide(){
 }
 
 function toggleNav(){
+    let unspan=document.querySelector('.unspan');
+    unspan.style.display="none";
     let nav=document.getElementById('NavBar');
     if(nav.style.display=="none")
     nav.style.display="block";
