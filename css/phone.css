@@ -1,0 +1,208 @@
+#NameSection{
+    padding: 0px;
+    width: unset;
+}
+section{
+    margin-bottom: 10vh;
+}
+
+.box{
+    width: 100vw;
+    margin-bottom: 5vh;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.uncleImg{
+    height: 9vh;
+}
+.unspan{
+    font-size: 2vw;
+}
+a{
+    margin: 10px;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 9vw;
+}
+#UncleBot{
+    height: 15vh;
+}
+#HeadingNameSection{
+    font-size: 20vw;
+}
+#HeadingWeather{
+    font-size: 8vw;
+}
+#HeadingGetInTouch{
+    font-size: 6vw;
+}
+#DownloadCVHeading{
+    font-size: 6vw;
+}
+.project{
+    width: 97vw;
+    padding: 0px;
+}
+#tele{
+    width: 80vw;
+}
+.inp{
+    margin: 5px;
+}
+.image{
+    height: 20vh;
+}
+
+#ImageNameSection1{
+    height: 40vh;
+}
+#ImageAboutSection1{
+    height: 40vh;
+}
+#ImageAboutSection2{
+    height: 20vh;
+}
+#BoxNameSection1{
+    flex-direction: column;
+}
+#ImageKnowSection1{
+    height: 40vh;
+}
+#BoxAboutSection1{
+    flex-direction: column;
+}
+#BoxAboutSection2{
+    flex-direction: column-reverse;
+}
+#ImageToolSection1{
+    height: 40vh;
+}
+#ImageToolSection2{
+    height: 30vh;
+}
+#ImageProjectsSection1{
+    height: 40vh;
+}
+#ImageHireSection1{
+    height: 40vh;
+}
+#ImageEarthSection1{
+    height: 40vh;
+}
+#ImageNameSection2::after{
+    background: unset;
+}
+
+#BoxToolSection1{
+    flex-direction: column;
+}
+
+#BoxToolSection2{
+    flex-direction: column-reverse;
+}
+
+#BoxProjectsSection1{
+    flex-direction: column;
+}
+
+#ImageProjectsSection2{
+    font-size: 20vh;
+}
+.imageProjectsSection{
+    height: 22vh;
+}
+#ImageKnowSection1{
+    
+}
+#BoxProjectsSection2{
+    justify-content: center;
+    width: unset;
+    margin: unset;
+    align-items: center;
+    flex-direction: column;
+}
+#HeadingInnerBoxProject1{
+    text-align: center;
+}
+#HeadingInnerBoxProject3{
+    text-align: center;
+}
+.paraInnerBoxProject{
+    text-align: center;
+}
+#Project1{
+    flex-direction: column;
+}
+#Project2{
+    flex-direction: column;
+}
+#Project3{
+    flex-direction: column;
+}
+#BoxKnowSection1{
+    flex-direction: column;
+    width: 97vw;
+}
+#ParaKnowSection{
+    text-align: center;
+    font-size: 5vw;
+}
+#ParaHireSection{
+    text-align: center;
+}
+#ParaEarthSection{
+    text-align: center;
+}
+#BoxKnowSection2{
+    flex-direction: column;
+    align-items: center;
+}
+.expName{
+    text-align: center;
+    font-size: 5vw;
+}
+.paraExp{
+    font-size: 5vw;
+}
+#BoxHireSection1{
+    flex-direction: column;
+}
+
+#BoxEarthSection1{
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+#FooterBox{
+    width: 100vw;
+}
+footer{
+    width: 100vw;
+}
+.listTool{
+    font-size: 5vw;
+    list-style: none;
+}
+#BoxToolList {
+    width: 100%;
+}
+.paraInnerBoxProject{
+    font-size: 5vw;
+}
+.inp{
+    font-size: 5vw;
+}
+.listProject{
+    font-size: 5vw;
+}
+#ParaHireSection{
+    font-size: 5vw;
+}
+#ParaEarthSection{
+    font-size: 5vw;
+}
+#FooterStrong{
+    font-size: 5vw;
+}
