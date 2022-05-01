@@ -14,10 +14,11 @@ section{
     justify-content: space-evenly;
 }
 .uncleImg{
-    height: 9vh;
+    height: 10vh;
 }
 .unspan{
-    font-size: 2vw;
+    font-size: 2.4vw;
+    padding-right:5px;
 }
 a{
     margin: 10px;
@@ -28,7 +29,7 @@ a{
     font-size: 9vw;
 }
 #NavBar{
-    width:75vw;
+    width:85vw;
 }
 #UncleBot{
     height: 15vh;
