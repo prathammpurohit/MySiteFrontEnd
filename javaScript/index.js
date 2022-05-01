@@ -2,6 +2,10 @@ let loader = document.getElementById('PreLoader');
     window.addEventListener("load", function () {
         loader.style.display = "none";
 });
+function hide(){
+    let unspan=document.querySelector('.unspan');
+    unspan.style.display="none";
+}
 
 function toggleNav(){
     let nav=document.getElementById('NavBar');
