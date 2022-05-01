@@ -453,12 +453,12 @@ span{
 
                 /* Footer */
 footer{
-    min-height: 30vh;
-    background-color: rgb(156, 235, 246);
+    min-height: 20vh;
+    background-color: rgba(186, 218, 223,0.3);
 }
 
 #FooterBox{
-    height: 30vh;
+    min-height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
