@@ -8,7 +8,7 @@ section{
 
 .box{
     width: 100vw;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
     padding: 0px;
     align-items: center;
     justify-content: space-evenly;
@@ -19,7 +19,7 @@ a{
 .heading{
     text-align: center;
     padding: 10px;
-    font-size: 7vw;
+    font-size: 9vw;
 }
 #UncleBot{
     height: 15vh;
