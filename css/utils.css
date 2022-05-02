@@ -384,10 +384,3 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-
-.footerLogo{
-    color: #3a629d;
-}
-.footerLogo:hover{
-    color: #0b68f3;
-}
