@@ -28,7 +28,14 @@
     width: 100vw;
     z-index: 50;
 }
-
+.MusicPlayer{
+    position: fixed;
+    left: 0;
+    top: 3vh;
+    border: 1px solid black;
+    background-color: rgb(96, 201, 243);
+    display: none;
+}
 body{
     position: relative;
 }
