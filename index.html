@@ -20,63 +20,60 @@
         <i class="tog music fa fa-pause" onclick="pauseQ4A()" style="border-right: 1px solid black;"></i>
         <i class="tog music fa fa-times" onclick="hideMusicPlayer()"></i>
     </div>
-<header>
+    <header>
         <nav id="NavBar">
             <div id="NavFlex">
-            <h3 class="headingNavBar">
-                Hola! I am Uncle Bot
-            </h3>
-            <i class="tog fa fa-times" onclick="toggleNav()" style="font-size: 2rem;"></i>
+                <div id="AdjUncle">
+                    <img src="images/character_illustration_8.svg" alt="" id="UncleDamn">
+                    <h3 class="headingNavBar">
+                    I am Uncle Bot.
+                    </h3>
+                    <p class="paraNavBar" id="UncleMessage" style="display: block; padding-top: 0px;">
+                    I am a die hard fan of UNIX based systems. As I have been 
+                    activated, you get the superpower of controlling the site 
+                    by pressing some popular linux commands.
+                    </p>
+                </div>
+            <i class="tog fa fa-times" onclick="toggleNav()" style="font-size: 2rem; color: #bc2626"></i>
             </div>
-            <p class="paraNavBar" id="A1" onclick="toggleQ1()">
-                About Pratham.
-                <i class="fa fa-arrow-down tog" onclick="onQ1()"></i>
-                <i class="fa fa-arrow-up tog" onclick="offQ1()"></i>
-                <li class="listParaNav" id="Q1">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint omnis corporis, 
-                    eaque error labore quia nostrum expedita voluptas? Ducimus, nam.
-                </li>
+            
+            <p class="paraNavBar" onclick="ansChild1()">
+                Shall I switch the theme of the site?
             </p>
-            <p class="paraNavBar">
-                Languages he knows.
-                <i class="fa fa-arrow-down tog" onclick="onQ2()"></i>
-                <i class="fa fa-arrow-up tog" onclick="offQ2()"></i>
-                <li class="listParaNav" id="Q2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Incidunt vero nisi earum maiores quod voluptatem quae eius, ut sint repellat.
-                </li>
+            <p class="paraNavBar" onclick="ansChild2()">
+                Is Pratham open to freelance?
             </p>
-            <p class="paraNavBar">
-                FrameWorks/Tools he uses.
-                <i class="fa fa-arrow-down tog" onclick="onQ3()"></i>
-                <i class="fa fa-arrow-up tog" onclick="offQ3()"></i>
-                <li class="listParaNav" id="Q3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Laborum laboriosam expedita quam incidunt, reprehenderit illum! Maiores facere optio sapiente accusantium?
-                </li>
+            <p class="paraNavBar" onclick="ansChild3()">
+               <b>Uncle, I want to know the superpowers!</b>
             </p>
-            <p class="paraNavBar">
+            <p class="paraNavBar" onclick="ansChild4()">
                 Shall I play some music for you?
                 <audio id="audioPlayer" loop>
                     <source src="audios/song1.ogg" type="audio/ogg"> 
-                    <source src="audios/song1.mpeg" type="audio/mpeg"> 
+                    <source id="audio1" src="audios/song1.mpeg" type="audio/mpeg"> 
                 </audio>
-                <i class="btnMusic fa fa-thumbs-up tog" onclick="playQ4()"></i>
-                <i class="btnMusic fa fa-thumbs-down tog" onclick="pauseQ4()"></i>
             </p>
-            <p class="paraNavBar">
-                Wanna hire Pratham?
+            <p class="paraNavBar" onclick="ansChild5()">
+                Just want to say hi.
             </p>
+            <hr>
+
+            <div id="AnswerNavBar">
+
+                <p class="answers paraNavBar" id="paraAns" style="color: rgb(142 45 143);">So,</p>
+
+            </div>
+
         </nav>
         <p class="UncleBot">
          <img src="images/character_illustration_6.svg" class="uncleImg" onclick="toggleNav()" ondblclick="hide()" alt="">
-         <p class="unspan">Double Tap <br>To Activate</p> 
+         <p class="unspan" style="color: #bc2626;">Double Tap <br>To Activate</p> 
         </p>
     </header>
 
     <main>
         <!-- SECTION 1 -->
-        <section id="NameSection">
+        <section id="NameSection" >
 
             <div class="box boxNameSection" id="BoxNameSection1">
                 <img src="images/Coding-bro.svg" alt="" class="image imageNameSection" id="ImageNameSection1">
