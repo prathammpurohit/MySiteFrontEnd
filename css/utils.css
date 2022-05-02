@@ -22,7 +22,7 @@
 
 
 #PreLoader{
-    background: url("../images/jesseLoader.gif") no-repeat center white;
+    background: url("../images/loaderCode.gif") no-repeat center white;
     position: fixed;
     min-height: 100vh;
     width: 100vw;
