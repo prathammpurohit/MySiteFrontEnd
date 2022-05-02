@@ -54,11 +54,13 @@ function ansChild1(){
     if(document.body.style.backgroundColor =="white"){
     document.body.style.backgroundColor = "black";
     document.querySelector("#NavBar").style.backgroundColor="#0d0b0b";
+    document.querySelector('.btn2').style.backgroundColor="#6da4d6";
     child.innerHTML="Changed to Dark Theme";
     }
     else{
     document.body.style.backgroundColor = "white";
     document.querySelector("#NavBar").style.backgroundColor="white";
+    document.querySelector('.btn2').style.backgroundColor="rgb(225 152 225)";
     child.innerHTML="Changed to Light Theme";
     }
     parentN.innerHTML="Alright.";
