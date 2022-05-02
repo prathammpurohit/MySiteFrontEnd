@@ -12,7 +12,9 @@
     --cv-font:League Spartan;
 }
 
-
+.music{
+    padding: 0.5vw;
+}
 .heading{
     font-size: 3.5rem;
     font-family: var(--heading-font);
@@ -41,6 +43,9 @@
 .tog:hover{
     cursor: pointer;
     color: red;
+}
+.music:hover{
+    color: rgb(32, 144, 166);
 }
 #HeadingNameSection{
     font-size: 12vw;   
