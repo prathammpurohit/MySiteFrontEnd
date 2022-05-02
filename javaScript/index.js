@@ -19,6 +19,7 @@ function playQ4A() {
     if(playA.paused)
     playA.play();
     child.innerHTML="Playing";
+    parentN.innerHTML="An audio player has been generated at the home page. Use it to navigate music."
     parent.appendChild(child);
 }
 function playQ4() {
@@ -35,6 +36,7 @@ function pauseQ4A() {
     if(!playA.paused)
     playA.pause();
     child.innerHTML="Paused";
+    parentN.innerHTML="An audio player has been generated at the home page. Use it to navigate music."
     parent.appendChild(child);
 }
 
@@ -93,15 +95,9 @@ function ansChild5(){
     parent.appendChild(child);
 }
 
-function hide(){
-    let unspan=document.querySelector('.unspan');
-    unspan.style.display="none";
-}
-
+let nav=document.getElementById('NavBar');
+nav.style.display="none";
 function toggleNav(){
-    let unspan=document.querySelector('.unspan');
-    unspan.style.display="none";
-    let nav=document.getElementById('NavBar');
     if(nav.style.display=="none")
     nav.style.display="block";
     else
