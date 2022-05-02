@@ -1,5 +1,4 @@
 *{
-    overflow: inherit;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -39,7 +38,6 @@ header{
     position: fixed;
     top: 0;
     right: 0;
-    overflow-y:scroll;
 }
 
 #NavFlex{
@@ -49,6 +47,8 @@ header{
 }
 
 #NavBar{
+    height: 100vh;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +56,7 @@ header{
     width: 50vw;
     display: none;
     padding: 15px;
-    background-color:white;
+    background-color:rgb(251, 238, 238);
 }
 
 .paraNavBar{
