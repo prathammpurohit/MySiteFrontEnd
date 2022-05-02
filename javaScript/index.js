@@ -55,19 +55,11 @@ function ansChild1(){
     document.body.style.backgroundColor = "black";
     document.querySelector("#NavBar").style.backgroundColor="#0d0b0b";
     child.innerHTML="Changed to Dark Theme";
-    let img=document.querySelectorAll('.image');
-    for (let index = 0; index < img.length; index++) {
-        img[index].style.opacity="0.5";  
-    }
     }
     else{
     document.body.style.backgroundColor = "white";
     document.querySelector("#NavBar").style.backgroundColor="white";
     child.innerHTML="Changed to Light Theme";
-    let img=document.querySelectorAll('.image');
-    for (let index = 0; index < img.length; index++) {
-        img[index].style.opacity="1";  
-    }
     }
     parentN.innerHTML="Alright.";
     parent.appendChild(child);
