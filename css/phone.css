@@ -5,16 +5,15 @@
 section{
     margin-bottom: 10vh;
 }
-
+.music{
+    padding: 3vw;
+}
 .box{
     width: 100vw;
     margin-bottom: 5vh;
     padding: 0px;
     align-items: center;
     justify-content: space-evenly;
-}
-.music{
-    padding: 3vw;
 }
 .uncleImg{
     height: 11vh;
