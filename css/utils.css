@@ -31,13 +31,15 @@
 .MusicPlayer{
     position: fixed;
     left: 0;
-    top: 2vh;
+    top: 3vh;
     border: 1px solid black;
     background-color: rgb(96, 201, 243);
     display: none;
 }
+
 body{
     position: relative;
+    background-color: white;
 }
                 /* HEADER */
 
@@ -45,6 +47,12 @@ header{
     position: fixed;
     top: 0;
     right: 0;
+}
+
+
+#AdjUncle{
+    display: flex;
+    flex-direction: column;
 }
 
 #NavFlex{
@@ -63,11 +71,28 @@ header{
     width: 50vw;
     display: none;
     padding: 15px;
-    background-color:rgb(251, 238, 238);
+    background-color:rgb(243, 239, 239);
+}
+
+#AnswerNavBar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .paraNavBar{
-    padding: 10px; 
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(122, 26, 26);
+    border-radius: 23px;
+    width: max-content;
+}
+.answers{
+    border: none;
+}
+#UncleMessage{
+    border: none;
+    width: unset;
 }
  
 .uncleImg{
@@ -85,6 +110,7 @@ header{
 }
 .headingNavBar{
     padding: 10px;
+    padding-bottom: 0px;
 }
 .listParaNav{
     display: none;
@@ -92,8 +118,7 @@ header{
 }
                 /* SECTION 1 */
                 
-#NameSection{
-}
+
 
 .boxNameSection{
     width: 100%;
@@ -106,18 +131,7 @@ header{
     font-size: 1vw;
     text-align: end;
 }
-.imageNameSection{
 
-}
-
-#BoxNameSection1{
-    
-}
-
-#HeadingNameSection{
-    background: url("../images/bg-10.svg") no-repeat bottom;
-    background-size: 60%;
-}
 
 #ImageNameSection1{
     height: 70vh;
@@ -127,9 +141,7 @@ header{
     justify-content:space-evenly;
 }
 
-#HeadingWeather{
 
-}
 
 #ImageNameSection2{
     min-height: 20vh;
@@ -139,21 +151,6 @@ header{
 
                 /* SECTION 2*/
 
-#AboutSection{
-
-}
-
-.boxAboutSection{
-
-}
-
-#BoxAboutSection1{
-
-}
-
-.imageAboutSection{
-
-}
 
 #ImageAboutSection1{
     height: 50vh;
@@ -192,29 +189,11 @@ form{
 }
 
             /* SECTION 3 */
-#ToolSection{
-
-}
-
-.boxToolSection{
-
-}
-
-#BoxToolSection1{
-
-}
-
-.imageToolSection{
-
-}
 
 #ImageToolSection1{
     height: 50vh;
 }
 
-#HeadingToolSection{
-    
-}
 
 #BoxToolSection2{
     width: 60vw;
@@ -241,47 +220,23 @@ span{
     background-color: rgb(178, 233, 246);
 }
 
-#ImageToolSection2{
-    
-}
 
-#BoxToolList{
-
-}
 
 #ToolList{
     display: flex;
     justify-content: space-evenly;
 }
 
-.toolList{
-    
-}
+
 
                 /* SECTION 4 */
-#ProjectsSection{
 
-}
-
-.boxProjectsSection{
-
-}
-
-#BoxProjectsSection1{
-
-}
-
-.imageProjectsSection{
-
-}
 
 #ImageProjectsSection1{
     height: 60vh;
 }
 
-#HeadingProjectsSection{
-    
-}
+
 
 #BoxProjectsSection2{
     width: 65vw;
@@ -301,13 +256,6 @@ span{
     justify-content: space-evenly;
 }
 
-.projectList{
-
-}
-
-.listProject{
-
-}
 
 #ElaborateProjects{
     display: flex;
@@ -341,18 +289,14 @@ span{
     margin-bottom: 10vh;
 }
 
-.boxKnowSection{
 
-}
 
 #BoxKnowSection1{
     width: 70vw;
     margin: auto;
 }
 
-.imageKnowSection{
 
-}
 
 #ImageKnowSection1{
     height: 50vh;
@@ -362,9 +306,7 @@ span{
     font-weight: light;
 }
 
-#ParaKnowSection{
 
-}
 
 #BoxKnowSection2{
     display: flex;
@@ -375,40 +317,25 @@ span{
     align-items: flex-start;
 }
 
-#HeadingExp{
 
-}
-
-#BoxExp{
-
-}
 
 .expHold{
     padding: 20px;
 }
 
-.expName{
-
-}
 
 
                 /* SECTION 6 */
-#HireSection{
-    
-}
 
-.boxHireSection{
 
-}
+
 
 #BoxHireSection1{
     width: 70vw;
     margin: auto;
 }
 
-.imageHireSection{
 
-}
 
 #ImageHireSection1{
     height: 50vh;
@@ -418,28 +345,19 @@ span{
     font-weight: light;
 }
 
-#ParaHireSection{
-
-}
 
 
                 /* SECTION 7 */
-#EarthSection{
 
-}
 
-.boxEarthSection{
 
-}
 
 #BoxEarthSection1{
     width: 70vw;
     margin: auto;
 }
 
-.imageEarthSection{
 
-}
 
 #ImageEarthSection1{
     height: 50vh;
@@ -449,9 +367,7 @@ span{
     font-weight: light;
 }
 
-#ParaEarthSection{
 
-}
 
 
                 /* Footer */
