@@ -89,6 +89,7 @@ header{
 }
 .answers{
     border: none;
+    text-align: end;
 }
 #UncleMessage{
     border: none;
