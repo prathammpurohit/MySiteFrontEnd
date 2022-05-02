@@ -69,7 +69,6 @@ header{
     justify-content: center;
     align-items: center;
     width: 50vw;
-    display: none;
     padding: 15px;
     background-color:rgb(243, 239, 239);
 }
@@ -126,11 +125,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.unspan{
-    padding: 0px;
-    font-size: 1vw;
-    text-align: end;
 }
 
 
