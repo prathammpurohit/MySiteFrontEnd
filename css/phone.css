@@ -211,3 +211,12 @@ footer{
 #FooterStrong{
     font-size: 5vw;
 }
+
+#paraAns{
+    padding: 3px;
+    width: fit-content;
+}
+
+.paraNavBar{
+    padding: 3px;
+}
