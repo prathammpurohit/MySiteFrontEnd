@@ -40,6 +40,7 @@
 }
 .tog:hover{
     cursor: pointer;
+    color: red;
 }
 #HeadingNameSection{
     font-size: 12vw;   
