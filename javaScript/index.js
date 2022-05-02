@@ -109,16 +109,12 @@ function toggleNav(){
 window.addEventListener('keydown', function (e) {
     
     if(e.key=="i"){
-        let unspan=document.querySelector('.unspan');
-        unspan.style.display="none";
         let nav=document.getElementById('NavBar');
         if(nav.style.display=="none")
         nav.style.display="block";
     }
 
     if(e.key=="q"){
-        let unspan=document.querySelector('.unspan');
-        unspan.style.display="none";
         let nav=document.getElementById('NavBar');
         if(nav.style.display=="block")
         nav.style.display="none";
@@ -134,5 +130,5 @@ window.addEventListener('keydown', function (e) {
     pauseQ4A();
     if(e.key=="s")
     hideMusicPlayer();
-  }, false);
+}, false);;
 
