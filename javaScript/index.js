@@ -82,7 +82,7 @@ function ansChild2(){
 function ansChild3(){
     child.innerHTML=`'i' to activate me<br>'q' to exit<br>'t' to change theme
                      <br>'m' to play music<br>'p' to pause music<br>'s' to terminate music`;
-    parentN.innerHTML="Press";
+    parentN.innerHTML="I will add actual Linux commands sooner :)<br>Press";
     parent.appendChild(child);
 }
 
