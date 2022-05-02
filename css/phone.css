@@ -13,6 +13,9 @@ section{
     align-items: center;
     justify-content: space-evenly;
 }
+.music{
+    padding: 3vw;
+}
 .uncleImg{
     height: 11vh;
 }
