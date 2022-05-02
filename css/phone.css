@@ -6,10 +6,6 @@ section{
     margin-bottom: 10vh;
 }
 
-.music{
-    padding: 3vw;
-}
-
 .box{
     width: 100vw;
     margin-bottom: 5vh;
@@ -25,7 +21,10 @@ section{
     padding-right: 1vw;
 }
 #NavBar{
-    width: 86vw;
+    width: 90vw;
+}
+#NavFlex{
+    font-size: 4vw;
 }
 a{
     margin: 10px;
@@ -39,7 +38,7 @@ a{
     height: 15vh;
 }
 #HeadingNameSection{
-    font-size: 20vw;
+    font-size: 22vw;
 }
 #HeadingWeather{
     font-size: 8vw;
@@ -122,9 +121,7 @@ a{
 .imageProjectsSection{
     height: 22vh;
 }
-#ImageKnowSection1{
-    
-}
+
 #BoxProjectsSection2{
     justify-content: center;
     width: unset;
