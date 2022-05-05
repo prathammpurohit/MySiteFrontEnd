@@ -125,7 +125,7 @@ window.addEventListener('keydown', function (e) {
     }
 
     if(e.key=="m")
-    playQ4A();
+    playQ4();
     if(e.key=="p")
     pauseQ4A();
     if(e.key=="s")
